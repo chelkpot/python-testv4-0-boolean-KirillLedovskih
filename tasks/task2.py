@@ -1,9 +1,6 @@
-# tasks/task2.py
+def solve(n):
+    return 5 < n <= 19
 
-def solve():
-# Ниже пишите решение задачи
-    
-   
-# Код ниже не трогать! он нужен для тестов
 if __name__ == "__main__":
-    solve()
+    n = int(input())
+    print(solve(n))
