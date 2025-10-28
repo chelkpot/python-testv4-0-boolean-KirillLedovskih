@@ -1,10 +1,6 @@
-# tasks/task4.py
+def solve(a, b, c):
+    return a + b > c and a + c > b and b + c > a
 
-def solve():
-# Ниже пишите решение задачи
-    
-    
-
-# Код ниже не трогать! он нужен для тестов
 if __name__ == "__main__":
-    solve()
+    a, b, c = map(int, input().split())
+    print(solve(a, b, c))
