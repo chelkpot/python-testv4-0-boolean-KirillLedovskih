@@ -1,10 +1,7 @@
-# tasks/task6.py
+def solve(a, b, c):
+    sides = sorted([a, b, c])
+    return sides[0] ** 2 + sides[1] ** 2 == sides[2] ** 2
 
-def solve():
-# Ниже пишите решение задачи
-
-   
-   
-# Код ниже не трогать! он нужен для тестов
 if __name__ == "__main__":
-    solve()
+    a, b, c = map(int, input().split())
+    print(solve(a, b, c))
