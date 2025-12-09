@@ -1,6 +1,9 @@
-def solve(a, b, c):
-    return a == b == c
+# tasks/task1.py
 
-if __name__ == "__main__":
+def solve():
+# Ниже пишите решение задачи
     a, b, c = map(int, input().split())
-    print(solve(a, b, c))
+    print(a == b == c)
+# Код ниже не трогать! он нужен для тестов
+if __name__ == "__main__":
+    solve()

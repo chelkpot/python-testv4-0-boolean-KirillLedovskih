@@ -1,6 +1,9 @@
-def solve(n):
-    return 10 <= n <= 99
+# tasks/task5.py
 
-if __name__ == "__main__":
+def solve():
+# Ниже пишите решение задачи
     n = int(input())
-    print(solve(n))
+    print(10 <= n <= 99)
+# Код ниже не трогать! он нужен для тестов
+if __name__ == "__main__":
+    solve()
